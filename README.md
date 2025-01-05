@@ -7,13 +7,13 @@ Add FlurlHttpClient to your services in your `Startup.cs` or `Program.cs` file .
 services.AddFlurlHttpClient();
 ```
 
-Inject `IFlurlHttpClient` into your class and use it to make http requests.
+Inject `IHttpClientService` into your class and use it to make http requests.
 ```csharp
 public class MyService:IMyService
 {
-    private readonly IFlurlHttpClient _flurlHttpClient;
+    private readonly IHttpClientService _flurlHttpClient;
 
-    public MyService(IFlurlHttpClient flurlHttpClient)
+    public MyService(IHttpClientService flurlHttpClient)
     {
         _flurlHttpClient = flurlHttpClient;
     }
