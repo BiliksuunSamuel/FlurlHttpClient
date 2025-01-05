@@ -4,7 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>1.0.0</Version>
+        <Version>1.1.0</Version>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/BiliksuunSamuel/FlurlHttpClient</RepositoryUrl>
         <Authors>Samuel Biliksuun</Authors>
@@ -13,7 +13,7 @@
             A simple wrapper around Flurl.Http that allows you to easily make http requests and deserialize the response.
         </Description>
         <PackageTags>Flurl HttpClient Http</PackageTags>
-        <PackageReleaseNotes>Version 1.0.0 - Initial Release</PackageReleaseNotes>
+        <PackageReleaseNotes>Version 1.1.0 - Initial Release</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
